@@ -1,0 +1,2172 @@
+/* =========================
+   GLOBAL
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-top: 75px;
+
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 248, 251);
+
+}
+
+/* =========================
+   HEADER
+========================= */
+
+/* Header ko clean aur compact height dene ke liye */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+
+    background-color: rgb(18, 59, 93);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 8px 30px;
+    box-sizing: border-box;
+
+    z-index: 9999;
+}
+
+/* Logo + Brand */
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+/* Sidharth + Faridabad */
+.brand-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-name h1 {
+    margin: 0;
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.brand-name span {
+    margin-top: 5px;
+    color: rgb(210, 225, 235);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Header fixed hone ki wajah se */
+body {
+    margin: 0;
+    padding-top: 85px;
+}
+/* =========================
+   SEARCH BOX
+========================= */
+
+#searchbox {
+    display: flex;
+    justify-content: center;
+}
+
+#searchcontainer {
+    width: 500px;
+    height: 50px;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+
+/* =========================
+   MENU
+========================= */
+
+
+
+/* =========================
+   GENERAL IMAGE
+========================= */
+
+#images {
+    border-radius: 40px;
+    object-fit: cover;
+    padding-left: 20px;
+}
+.independent{
+    margin-left: 20px;
+}
+.best{
+    margin-left: 100px;
+}
+/* =========================
+   HPLC BOX
+========================= */
+
+.hplc-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    background: rgb(235, 243, 248);
+
+    padding: 20px;
+    margin: 20px;
+
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 25px;
+}
+
+#images {
+    width: 220px !important;
+    height: 220px !important;
+    max-width: 250px !important;
+    max-height: 220px !important;
+    object-fit: contain !important;
+    display: block;
+}
+.hplc-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hplc-line {
+    margin: 0;
+    font-size: 30px !important;
+    text-decoration: none !important;
+    font-size: 50px;
+    color: rgb(18, 59, 93);
+}
+
+.hplc-content p {
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+}
+.equipment-rating {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.equipment-name {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+.location{
+  font-size: 16px;
+    color: rgb(51, 51, 51);  
+}
+
+.equipment-duration {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+
+.equipment-stars {
+    color: rgb(255, 180, 0);
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+/* =========================
+   LCMS BOX
+========================= */
+
+.lcms-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    background: rgb(235, 243, 248);
+
+    padding: 20px;
+    margin: 20px;
+
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 25px;
+}
+
+.lcms-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.lcms-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.lcms-line {
+    margin: 0;
+    font-size: 30px !important;
+    text-decoration: none !important;
+    font-size: 50px;
+    color: rgb(18, 59, 93);
+}
+
+.lcms-content p {
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+}
+
+
+/* =========================
+   LCMS ABOUT US BOX
+   IMAGE TOP + CONTENT BELOW
+========================= */
+
+.lcms-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 90%;
+    min-height: 500px;
+
+    margin: 20px auto;
+    padding: 40px;
+
+    background-color: white;
+
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 25px;
+}
+
+
+/* LCMS IMAGE */
+
+.lcms-box1 .lcms-img {
+    display: block;
+
+    width: 180px;
+    height: 180px;
+
+    margin: 0 0 20px 0;
+    padding: 0;
+
+    border-radius: 25px;
+
+    object-fit: cover;
+}
+
+
+/* LCMS CONTENT */
+
+.lcms-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+
+/* LCMS TITLE */
+
+.lcms-line1 {
+    display: block;
+
+    margin: 0 0 15px 0;
+    font-size: 30px !important;
+    text-decoration: none !important;
+
+    font-size: 50px;
+    color: rgb(18, 59, 93);
+
+    text-decoration: none;
+}
+
+.lcms-line1:hover {
+    text-decoration: underline;
+}
+
+
+/* LCMS PARAGRAPH */
+
+.lcms-content1 p {
+    margin-top: 10px;
+
+    color: rgb(51, 51, 51);
+
+    line-height: 1.6;
+
+    text-align: center;
+
+    max-width: 900px;
+}
+
+
+/* =========================
+   CONTACT BUTTON
+========================= */
+
+.contact-box img {
+    height: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.contact-box {
+    display: inline-block;
+}
+
+
+/* =========================
+   WHATSAPP BUTTON
+========================= */
+
+.whatsapp-box img {
+    height: 50px;
+    width: 135px;
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.whatsapp-box {
+    display: inline-block;
+}
+
+
+/* =========================
+   GCMS BOX
+========================= */
+
+.gcms-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    background: rgb(235, 243, 248);
+
+    padding: 20px;
+    margin: 20px;
+
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 25px;
+}
+
+.gcms-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.gcms-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.gcms-line {
+    margin: 0;
+    font-size: 30px !important;
+    text-decoration: none !important;
+    font-size: 50px;
+    color: rgb(18, 59, 93);
+}
+
+
+/* =========================
+   POLARIMETER BOX
+========================= */
+
+.polarimeter-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    background: rgb(235, 243, 248);
+
+    padding: 20px;
+    margin: 20px;
+
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 25px;
+}
+
+.polarimeter-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.polarimeter-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.polarimeter-line {
+    margin: 0;
+    font-size: 30px !important;
+    text-decoration: none !important;
+    font-size: 50px;
+    color: rgb(18, 59, 93);
+}
+
+
+/* =========================
+   UV SPECTROPHOTOMETER
+========================= */
+
+.uv-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    background: rgb(235, 243, 248);
+
+    padding: 20px;
+    margin: 20px;
+
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 25px;
+}
+
+.uv-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.uv-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.uv-line {
+    margin: 0;
+    font-size: 30px !important;
+    text-decoration: none !important;
+    font-size: 50px;
+    color: rgb(18, 59, 93);
+}
+
+
+/* =========================
+   FTIR BOX
+========================= */
+
+.ftir-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    background: rgb(235, 243, 248);
+
+    padding: 20px;
+    margin: 20px;
+
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 25px;
+}
+
+.ftir-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.ftir-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ftir-line {
+    margin: 0;
+    font-size: 30px !important;
+    text-decoration: none !important;
+    font-size: 50px;
+    color: rgb(18, 59, 93);
+}
+
+
+/* =========================
+   PH METER BOX
+========================= */
+
+.ph-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    background: rgb(235, 243, 248);
+
+    padding: 20px;
+    margin: 20px;
+
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 25px;
+}
+
+.ph-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.ph-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ph-line {
+    margin: 0;
+    font-size: 30px !important;
+    text-decoration: none !important;
+    font-size: 50px;
+    color: rgb(18, 59, 93);
+}
+
+
+/* =========================
+   OUR SERVICES
+========================= */
+
+
+
+
+/* =========================
+   SERVICE CARDS
+   CG1 TO CG15
+========================= */
+
+/* ================================
+   OUR SERVICES + GENUINE SIDE BY SIDE
+   ================================ */
+
+.servicesrow {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 20px;
+
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
+
+/* =========================
+   OUR SERVICES - LEFT
+========================= */
+
+.ourservices {
+    flex: 2;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 300px;
+    background-color: white;
+
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 25px;
+
+    padding: 30px;
+    margin: 0;
+}
+
+
+/* OUR SERVICES HEADING */
+
+.ourservices h2 {
+    grid-column: 1 / -1;
+
+    text-align: center;
+
+    color: rgb(18, 59, 93);
+
+    font-size: 32px;
+
+    margin: 0 0 10px 0;
+}
+
+
+/* =========================
+   SERVICE OUTER DIV
+========================= */
+
+.ourservices > div {
+    display: flex;
+}
+
+
+/* =========================
+   SERVICE LINKS
+========================= */
+
+.cg1,
+.cg2,
+.cg3,
+.cg4,
+.cg5,
+.cg6,
+.cg7,
+.cg8,
+.cg9,
+.cg10,
+.cg11,
+.cg12,
+.cg13,
+.cg14,
+.cg15,
+ .cg16,
+ .cg17,
+ .cg18,
+ .cg19,
+ .cg20,
+ .cg21,
+ .cg22,
+ .cg23,
+ .cg24{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 80px;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border: 2px solid rgb(217, 227, 234);
+
+    border-radius: 15px;
+
+    color: rgb(18, 59, 93);
+
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+/* SERVICE HOVER */
+
+.cg1:hover,
+.cg2:hover,
+.cg3:hover,
+.cg4:hover,
+.cg5:hover,
+.cg6:hover,
+.cg7:hover,
+.cg8:hover,
+.cg9:hover,
+.cg10:hover,
+.cg11:hover,
+.cg12:hover,
+.cg13:hover,
+.cg14:hover,
+.cg15:hover,
+.cg16:hover,
+.cg17:hover,
+.cg18:hover,
+.cg19:hover,
+.cg20:hover,
+.cg21:hover,
+.cg22:hover,
+.cg23:hover,
+.cg24:hover{
+    border-color: rgb(18, 59, 93);
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   GENUINE - RIGHT SIDE
+========================= */
+
+.genuine {
+    flex: 1;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+    width: 600px;
+
+    background-color: rgb(43, 27, 23);
+
+    border: 2px solid rgb(217, 227, 234);
+
+    border-radius: 25px;
+
+    padding: 30px;
+    margin: 0;
+}
+
+
+/* =========================
+   GENUINE IMAGE BOX
+========================= */
+
+.genuine > div {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+    min-height: 180px;
+}
+
+
+/* =========================
+   GENUINE IMAGES
+========================= */
+
+.genuine img {
+    display: block;
+
+    width: 100%;
+    max-width: 200px;
+
+    height: auto;
+
+    border-radius: 10px;
+
+    object-fit: contain;
+}
+/* =========================
+   WEBSITE CONTENT
+========================= */
+
+.website-content {
+    padding: 50px;
+
+    text-align: center;
+
+    color: rgb(51, 51, 51);
+}
+.topcities {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    background-color: white;
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 25px;
+    height: 300px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.topcities h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+
+    color: rgb(18, 59, 93);
+    font-size: 32px;
+    margin: 0 0 10px 0;
+    padding-top: 20px;
+}
+
+.cg51,
+.cg52,
+.cg53,
+.cg54 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 80px;
+    padding: 20px;
+
+    background-color: white;
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 15px;
+
+    color: rgb(18, 59, 93);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.cg51:hover,
+.cg52:hover,
+.cg53:hover,
+.cg54:hover {
+    border-color: rgb(18, 59, 93);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+}
+.what-hplc {
+    background-color: white;
+    border: 2px solid rgb(217, 227, 234);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.what-hplc h2 {
+    color: rgb(18, 59, 93);
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.what-hplc p {
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 0;
+}
+/* =========================
+   HOW IT WORKS - NEW DESIGN
+========================= */
+
+.how-it-works {
+    width: 100%;
+    padding: 60px 40px;
+    box-sizing: border-box;
+    background: rgb(248, 250, 252);
+}
+
+
+/* =========================
+   SECTION TITLE
+========================= */
+
+.section-title {
+    max-width: 1250px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(225, 230, 235);
+}
+
+.section-title h2 {
+    margin: 0;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    color: rgb(18, 59, 93);
+}
+
+.title-icon {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: rgb(18, 59, 93);
+    color: white;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   STEPS CONTAINER
+========================= */
+
+.steps-container {
+    max-width: 1250px;
+
+    margin: 55px auto 0;
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+
+    gap: 18px;
+}
+
+
+/* =========================
+   STEP CARD
+========================= */
+
+.step-card {
+    position: relative;
+
+    flex: 1;
+
+    min-height: 270px;
+
+    padding: 45px 28px 30px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+
+    background-color: white;
+
+    border: 1px solid rgb(220, 227, 233);
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(18, 59, 93, 0.06);
+
+    transition: all 0.3s ease;
+}
+
+.step-card:hover {
+    transform: translateY(-8px);
+
+    border-color: rgb(18, 59, 93);
+
+    box-shadow: 0 15px 35px rgba(18, 59, 93, 0.12);
+}
+
+
+/* =========================
+   NUMBER
+========================= */
+
+.step-number {
+    position: absolute;
+
+    top: -18px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(18, 59, 93);
+    color: white;
+
+    border: 4px solid rgb(248, 250, 252);
+
+    border-radius: 50%;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    box-shadow: 0 4px 12px rgba(18, 59, 93, 0.2);
+}
+
+
+/* =========================
+   ICON
+========================= */
+
+.step-icon {
+    width: 82px;
+    height: 82px;
+
+    margin: 5px auto 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(240, 246, 250);
+
+    border: 1px solid rgb(210, 224, 234);
+
+    border-radius: 50%;
+
+    color: rgb(18, 59, 93);
+
+    font-size: 34px;
+
+    transition: 0.3s ease;
+}
+
+.step-card:hover .step-icon {
+    background-color: rgb(18, 59, 93);
+    color: white;
+}
+
+
+/* =========================
+   CARD HEADING
+========================= */
+
+.step-card h3 {
+    margin: 0 0 12px;
+
+    font-size: 19px;
+    font-weight: 700;
+
+    color: rgb(18, 59, 93);
+}
+
+
+/* =========================
+   CARD TEXT
+========================= */
+
+.step-card p {
+    margin: 0 auto;
+
+    max-width: 240px;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: rgb(90, 90, 90);
+}
+
+
+/* =========================
+   ARROWS
+========================= */
+
+.step-arrow {
+    align-self: center;
+
+    font-size: 36px;
+
+    color: rgb(18, 59, 93);
+
+    font-weight: 400;
+
+    margin: 0 2px;
+}
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: rgb(25, 25, 25);
+
+    text-align: center;
+
+    min-height: 250px;
+
+    padding: 30px;
+
+    color: white;
+}
+
+footer a {
+    color: white;
+
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: rgb(100, 180, 255);
+
+    text-decoration: underline;
+}
+
+
+/* =========================
+   TERMS OVERLAY
+========================= */
+
+#termsOverlay {
+    display: none;
+
+    position: fixed;
+
+    inset: 0;
+
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.35);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    z-index: 10000;
+}
+
+
+/* =========================
+   TERMS BOX
+========================= */
+
+#termsBox {
+    position: relative;
+
+    width: 480px;
+    max-width: 90%;
+    max-height: 75vh;
+
+    color: white;
+
+    background: black;
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+}
+
+
+/* =========================
+   TERMS HEADING
+========================= */
+
+#termsBox h2 {
+    text-align: center;
+
+    margin-top: 0;
+
+    font-size: 27px;
+
+    color: white;
+}
+
+
+/* =========================
+   CLOSE BUTTON
+========================= */
+
+.closeBtn {
+    position: absolute;
+
+    top: 8px;
+    right: 14px;
+
+    z-index: 10001;
+
+    border: none;
+
+    background: transparent;
+
+    font-size: 30px;
+
+    color: white;
+
+    cursor: pointer;
+
+    pointer-events: auto;
+}
+
+.closeBtn:hover {
+    color: red;
+}
+
+
+/* =========================
+   TERMS CONTENT
+========================= */
+
+.termsContent {
+    max-height: 50vh;
+
+    overflow-y: auto;
+
+    padding-right: 10px;
+}
+
+.termsContent h3 {
+    font-size: 17px;
+
+    color: white;
+
+    margin-bottom: 5px;
+}
+
+.termsContent p {
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    color: #ddd;
+
+    margin-top: 0;
+}
+
+
+/* =========================
+   PRIVACY POLICY OVERLAY
+========================= */
+
+#PolicyOverlay {
+    display: none;
+
+    position: fixed;
+
+    inset: 0;
+
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.35);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    z-index: 10000;
+}
+
+
+/* =========================
+   PRIVACY POLICY BOX
+========================= */
+
+#PolicyBox {
+    position: relative;
+
+    width: 480px;
+    max-width: 90%;
+    max-height: 75vh;
+
+    background: black;
+
+    color: white;
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+}
+
+
+/* =========================
+   PRIVACY POLICY HEADING
+========================= */
+
+#PolicyBox h2 {
+    text-align: center;
+
+    margin-top: 0;
+
+    font-size: 27px;
+
+    color: white;
+}
+
+
+/* =========================
+   PRIVACY CLOSE BUTTON
+========================= */
+
+.closeBtn1 {
+    position: absolute;
+
+    top: 8px;
+    right: 14px;
+
+    border: none;
+
+    background: transparent;
+
+    font-size: 30px;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+.closeBtn1:hover {
+    color: red;
+}
+
+
+/* =========================
+   PRIVACY CONTENT
+========================= */
+
+.PolicyContent {
+    max-height: 50vh;
+
+    overflow-y: auto;
+
+    padding-right: 10px;
+}
+
+.PolicyContent h3 {
+    font-size: 17px;
+
+    color: white;
+
+    margin-bottom: 5px;
+}
+
+.PolicyContent p {
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    color: #ddd;
+
+    margin-top: 0;
+}
+
+
+/* =========================
+   TERMS LINK
+========================= */
+
+.terms-link {
+    border-right: 1px solid white;
+    text-decoration: none;
+
+    padding-right: 15px;
+
+    margin-right: 15px;
+}
+
+
+/* =========================
+   PRIVACY LINK
+========================= */
+
+.Privacy {
+    border-right: 1px solid white;
+    text-decoration: none;
+
+    padding-right: 15px;
+
+    margin-right: 15px;
+}
+
+
+/* =========================
+   ALL RIGHTS RESERVED
+========================= */
+
+.allrights {
+    display: inline-block;
+
+    color: rgb(244, 248, 251);
+
+    border-right: 1px solid white;
+
+    padding-right: 15px;
+
+    margin-right: 15px;
+}
+
+
+/* =========================
+   SMALL FOOTER LINKS
+========================= */
+
+.Privacy1 {
+    font-size: 10px;
+text-decoration: none;
+    border-right: 1px solid white;
+
+    padding-right: 15px;
+
+    margin-right: 15px;
+}
+
+.terms-link1 {
+    font-size: 10px;
+
+    border-right: 1px solid white;
+
+    padding-right: 15px;
+
+    margin-right: 15px;
+
+    color: white;
+
+    text-decoration: none;
+}
+
+
+/* =========================
+   DISCLAIMER OVERLAY
+========================= */
+
+#disclaimerOverlay {
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.3);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+}
+
+
+/* =========================
+   DISCLAIMER BOX
+========================= */
+
+#disclaimerBox {
+    width: 450px;
+
+    max-width: 90%;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+#disclaimerBox h2 {
+    margin-top: 0;
+
+    color: rgb(18, 59, 93);
+}
+
+#disclaimerBox p {
+    line-height: 1.6;
+
+    color: rgb(85, 85, 85);
+}
+
+
+/* =========================
+   DISCLAIMER BUTTON
+========================= */
+
+#disclaimerBox button {
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: rgb(0, 123, 255);
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+#disclaimerBox button:hover {
+    background: rgb(0, 86, 179);
+}
+
+
+/* =========================
+   DECLINE BUTTON
+========================= */
+
+#declineBtn {
+    background: rgb(220, 53, 69);
+
+    color: white;
+}
+
+#declineBtn:hover {
+    background: rgb(176, 42, 55);
+}
+/* Floating Calling + WhatsApp Buttons */
+
+.floating-contact {
+    position: fixed !important;
+    right: 20px !important;
+    bottom: 25px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px !important;
+
+    z-index: 999999 !important;
+}
+
+.call-button,
+.whatsapp-button {
+    width: 60px !important;
+    height: 60px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    border-radius: 50% !important;
+
+    text-decoration: none !important;
+
+    font-size: 30px !important;
+    font-weight: bold !important;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+}
+
+.call-button {
+    background-color: green !important;
+    color: white !important;
+}
+
+.whatsapp-button {
+    background-color: green !important;
+    color: white !important;
+    font-size: 25px !important;
+}
+
+.call-button:hover,
+.whatsapp-button:hover {
+    transform: scale(1.1);
+}
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    /* BODY */
+    body {
+        padding-top: 140px;
+        overflow-x: hidden;
+    }
+
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    header {
+        height: auto;
+        min-height: 130px;
+        padding: 10px 15px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logo-section {
+        gap: 10px;
+    }
+
+    .logo {
+        width: 45px !important;
+        height: 45px !important;
+        max-width: 45px !important;
+        max-height: 45px !important;
+    }
+
+    .brand-name h1 {
+        font-size: 24px;
+    }
+
+    .brand-name span {
+        font-size: 12px;
+    }
+
+
+    /* MENU */
+
+    .menu {
+        margin-left: 0;
+        gap: 15px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+
+    /* =========================
+       SEARCH BOX
+    ========================= */
+
+    #searchbox {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    #searchcontainer {
+        width: 100%;
+        max-width: 500px;
+        height: 45px;
+        margin-top: 20px;
+    }
+
+
+    /* =========================
+       HPLC / LCMS / GCMS /
+       POLARIMETER / UV / FTIR / PH
+    ========================= */
+
+    .hplc-box,
+    .lcms-box,
+    .gcms-box,
+    .polarimeter-box,
+    .uv-box,
+    .ftir-box,
+    .ph-box {
+
+        flex-direction: column;
+        align-items: center;
+
+        width: calc(100% - 30px);
+
+        margin: 15px;
+
+        padding: 20px;
+
+        gap: 15px;
+    }
+
+
+    /* HPLC IMAGE */
+
+    #images {
+        width: 150px !important;
+        height: 150px !important;
+
+        max-width: 150px !important;
+        max-height: 150px !important;
+
+        padding-left: 0;
+    }
+
+
+    /* OTHER IMAGES */
+
+    .lcms-img,
+    .gcms-img,
+    .polarimeter-img,
+    .uv-img,
+    .ftir-img,
+    .ph-img {
+
+        width: 150px;
+        height: 150px;
+    }
+
+
+    /* CONTENT */
+
+    .hplc-content,
+    .lcms-content,
+    .gcms-content,
+    .polarimeter-content,
+    .uv-content,
+    .ftir-content,
+    .ph-content {
+
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    /* EQUIPMENT TITLE */
+
+    .hplc-line,
+    .lcms-line,
+    .gcms-line,
+    .polarimeter-line,
+    .uv-line,
+    .ftir-line,
+    .ph-line {
+
+        font-size: 28px !important;
+    }
+
+
+    /* PARAGRAPH */
+
+    .hplc-content p,
+    .lcms-content p {
+
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* RATING */
+
+    .equipment-rating {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .equipment-stars {
+        font-size: 18px;
+    }
+
+
+    /* =========================
+       CONTACT BUTTONS
+    ========================= */
+
+    .contact-box img {
+        height: 45px;
+        margin-top: 15px;
+    }
+
+    .whatsapp-box img {
+        height: 45px;
+        width: 120px;
+        margin-top: 15px;
+        margin-left: 8px;
+    }
+
+
+    /* =========================
+       LCMS ABOUT US
+    ========================= */
+
+    .lcms-box1 {
+
+        width: calc(100% - 30px);
+
+        min-height: auto;
+
+        margin: 15px;
+
+        padding: 25px 15px;
+    }
+
+    .lcms-box1 .lcms-img {
+
+        width: 150px;
+        height: 150px;
+    }
+
+    .lcms-content1 {
+        width: 100%;
+    }
+
+    .lcms-line1 {
+        font-size: 28px !important;
+    }
+
+    .lcms-content1 p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* =========================
+       OUR SERVICES
+    ========================= */
+
+    .servicesrow {
+
+        width: calc(100% - 30px);
+
+        margin: 15px;
+
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+
+    .ourservices {
+
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 12px;
+
+        padding: 20px;
+    }
+
+
+    .ourservices h2 {
+
+        font-size: 26px;
+    }
+
+
+    .cg1,
+    .cg2,
+    .cg3,
+    .cg4,
+    .cg5,
+    .cg6,
+    .cg7,
+    .cg8,
+    .cg9,
+    .cg10,
+    .cg11,
+    .cg12,
+    .cg13,
+    .cg14,
+    .cg15,
+    .cg16,
+    .cg17,
+    .cg18,
+    .cg19,
+    .cg20,
+    .cg21,
+    .cg22,
+    .cg23,
+    .cg24 {
+
+        min-height: 65px;
+
+        padding: 15px;
+
+        font-size: 16px;
+    }
+
+
+    /* =========================
+       GENUINE
+    ========================= */
+
+    .genuine {
+
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 10px;
+
+        padding: 15px;
+    }
+
+    .genuine > div {
+
+        min-height: 120px;
+
+        padding: 10px;
+    }
+
+    .genuine img {
+
+        max-width: 100%;
+    }
+
+
+    /* =========================
+       TOP CITIES
+    ========================= */
+
+    .topcities {
+
+        display: block;
+
+        width: calc(100% - 30px);
+
+        height: auto;
+
+        margin: 15px;
+
+        padding: 20px;
+    }
+
+    .topcities h2 {
+
+        font-size: 26px;
+
+        padding-top: 0;
+        margin-bottom: 20px;
+    }
+
+
+    .cg51,
+    .cg52,
+    .cg53,
+    .cg54 {
+
+        min-height: 60px;
+
+        margin-bottom: 12px;
+
+        padding: 15px;
+
+        font-size: 16px;
+    }
+
+
+    /* =========================
+       WHAT IS HPLC
+    ========================= */
+
+    .what-hplc {
+
+        margin: 15px;
+
+        padding: 20px;
+    }
+
+    .what-hplc h2 {
+
+        font-size: 25px;
+    }
+
+    .what-hplc p {
+
+        font-size: 15px;
+
+        line-height: 1.6;
+    }
+
+
+    /* =========================
+       HOW IT WORKS
+    ========================= */
+
+    .how-it-works {
+
+        padding: 40px 15px;
+    }
+
+    .section-title {
+
+        gap: 8px;
+    }
+
+    .section-title h2 {
+
+        font-size: 23px;
+    }
+
+    .title-icon {
+
+        width: 34px;
+        height: 34px;
+
+        font-size: 17px;
+    }
+
+
+    .steps-container {
+
+        margin-top: 40px;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 30px;
+    }
+
+
+    .step-card {
+
+        width: 100%;
+
+        max-width: 380px;
+
+        min-height: auto;
+
+        padding: 40px 20px 25px;
+    }
+
+
+    .step-card h3 {
+
+        font-size: 18px;
+    }
+
+    .step-card p {
+
+        font-size: 14px;
+    }
+
+
+    .step-arrow {
+
+        transform: rotate(90deg);
+
+        font-size: 30px;
+
+        margin: -10px 0;
+    }
+
+
+    /* =========================
+       WEBSITE CONTENT
+    ========================= */
+
+    .website-content {
+
+        padding: 30px 15px;
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    footer {
+
+        min-height: auto;
+
+        padding: 25px 15px;
+    }
+
+    footer a {
+
+        font-size: 13px;
+    }
+
+
+    /* =========================
+       TERMS / PRIVACY POPUP
+    ========================= */
+
+    #termsBox,
+    #PolicyBox {
+
+        width: calc(100% - 30px);
+
+        max-width: none;
+
+        max-height: 80vh;
+
+        padding: 25px 18px;
+    }
+
+    #termsBox h2,
+    #PolicyBox h2 {
+
+        font-size: 23px;
+
+        padding-right: 20px;
+    }
+
+    .termsContent p,
+    .PolicyContent p {
+
+        font-size: 13px;
+    }
+
+
+    /* =========================
+       DISCLAIMER
+    ========================= */
+
+    #disclaimerBox {
+
+        width: calc(100% - 30px);
+
+        padding: 25px 18px;
+    }
+
+    #disclaimerBox h2 {
+
+        font-size: 23px;
+    }
+
+    #disclaimerBox p {
+
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       FLOATING BUTTONS
+    ========================= */
+
+    .floating-contact {
+
+        right: 12px !important;
+
+        bottom: 15px !important;
+
+        gap: 10px !important;
+    }
+
+    .call-button,
+    .whatsapp-button {
+
+        width: 52px !important;
+
+        height: 52px !important;
+
+        font-size: 25px !important;
+    }
+
+    .whatsapp-button {
+
+        font-size: 22px !important;
+    }
+
+}
