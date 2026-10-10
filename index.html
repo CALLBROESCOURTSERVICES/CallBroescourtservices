@@ -53,7 +53,7 @@
     </div>
 
     <nav class="menu">
-        <a href="home.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="About Us.html">About Us</a>
         <a href="Gallary.html">Gallary</a>
         <a href="tel:+919355609397">Contact Us</a>
@@ -590,9 +590,9 @@ Independent adult companions and eligible service providers can also enquire abo
             Terms & Conditions 
         </a>
         <a class="Privacy"
-            href="home.html">Privacy Policy</a>
+            href="index.html">Privacy Policy</a>
         <menu class="menu">
-        <a href="home.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="About Us.html">About Us</a>
         <a href="Gallary.html">Gallary</a>
         <a href="tel:+919355609397">Contact Us</a>
@@ -918,6 +918,7 @@ Independent adult companions and eligible service providers can also enquire abo
                                                  /* Disclaimer */
         function acceptDisclaimer() {
             document.getElementById("disclaimerOverlay").style.display = "none";
+            unlockBackgroundScroll();
         }
         function declineDisclaimer() {
             window.history.back();
@@ -936,6 +937,21 @@ Independent adult companions and eligible service providers can also enquire abo
 
 function closePolicy() {
     document.getElementById("PolicyOverlay").style.display = "none";
+}
+
+const disclaimerOverlay = document.getElementById("disclaimerOverlay");
+
+function lockBackgroundScroll() {
+    document.body.classList.add("no-scroll");
+}
+
+function unlockBackgroundScroll() {
+    document.body.classList.remove("no-scroll");
+}
+
+// Disclaimer khula ho to background scroll band
+if (disclaimerOverlay && disclaimerOverlay.style.display !== "none") {
+    lockBackgroundScroll();
 }
     </script>
 </body>

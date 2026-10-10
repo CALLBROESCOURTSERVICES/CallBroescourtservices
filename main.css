@@ -36,7 +36,7 @@ header {
     padding: 8px 30px;
     box-sizing: border-box;
 
-    z-index: 9999;
+    z-index: 100;
 }
 
 /* Logo + Brand */
@@ -1497,6 +1497,12 @@ text-decoration: none;
 
     color: rgb(85, 85, 85);
 }
+
+
+body.no-scroll {
+    overflow: hidden !important;
+}
+
 
 
 /* =========================
